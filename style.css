@@ -1,0 +1,114 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Шапка */
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 555px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Основной блок */
+main {
+    padding: 40px 0;
+}
+
+main section {
+    margin-bottom: 30px;
+}
+
+main section h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+main section ul {
+    list-style: none;
+    padding: 0;
+}
+
+main section li {
+    margin-bottom: 10px;
+}
+
+/* Профессиональный опыт */
+.professional-experience ul li {
+    margin-bottom: 25px;
+}
+
+.professional-experience ul li span {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.professional-experience ul li p {
+    margin-top: 10px;
+}
+
+/* Образование */
+.education ul li {
+    margin-bottom: 25px;
+}
+
+.education ul li span {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.education ul li p {
+    margin-top: 10px;
+}
+
+/* Навыки */
+.skills ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+/* Контактная информация */
+.contact-info ul li strong {
+    display: inline-block;
+    min-width: 80px;
+}
+
+/* Подвал */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Ссылки */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
